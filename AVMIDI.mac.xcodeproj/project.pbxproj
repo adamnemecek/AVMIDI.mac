@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3765BDEA1D8F62330043F47A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765BDE91D8F62330043F47A /* AppDelegate.swift */; };
+		3765BDEC1D8F62330043F47A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765BDEB1D8F62330043F47A /* ViewController.swift */; };
+		3765BDEE1D8F62340043F47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3765BDED1D8F62330043F47A /* Assets.xcassets */; };
+		3765BDF11D8F62340043F47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3765BDEF1D8F62340043F47A /* Main.storyboard */; };
+		3765BDFC1D8F62340043F47A /* AVMIDI_macTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765BDFB1D8F62340043F47A /* AVMIDI_macTests.swift */; };
+		3765BE071D8F62340043F47A /* AVMIDI_macUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765BE061D8F62340043F47A /* AVMIDI_macUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3765BDF81D8F62340043F47A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3765BDDE1D8F62330043F47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3765BDE51D8F62330043F47A;
+			remoteInfo = AVMIDI.mac;
+		};
+		3765BE031D8F62340043F47A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3765BDDE1D8F62330043F47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3765BDE51D8F62330043F47A;
+			remoteInfo = AVMIDI.mac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3765BDE61D8F62330043F47A /* AVMIDI.mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVMIDI.mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3765BDE91D8F62330043F47A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3765BDEB1D8F62330043F47A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3765BDED1D8F62330043F47A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3765BDF01D8F62340043F47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3765BDF21D8F62340043F47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3765BDF71D8F62340043F47A /* AVMIDI.macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVMIDI.macTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3765BDFB1D8F62340043F47A /* AVMIDI_macTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVMIDI_macTests.swift; sourceTree = "<group>"; };
+		3765BDFD1D8F62340043F47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3765BE021D8F62340043F47A /* AVMIDI.macUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVMIDI.macUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3765BE061D8F62340043F47A /* AVMIDI_macUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVMIDI_macUITests.swift; sourceTree = "<group>"; };
+		3765BE081D8F62340043F47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3765BDE31D8F62330043F47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3765BDF41D8F62340043F47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3765BDFF1D8F62340043F47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3765BDDD1D8F62330043F47A = {
+			isa = PBXGroup;
+			children = (
+				3765BDE81D8F62330043F47A /* AVMIDI.mac */,
+				3765BDFA1D8F62340043F47A /* AVMIDI.macTests */,
+				3765BE051D8F62340043F47A /* AVMIDI.macUITests */,
+				3765BDE71D8F62330043F47A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3765BDE71D8F62330043F47A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3765BDE61D8F62330043F47A /* AVMIDI.mac.app */,
+				3765BDF71D8F62340043F47A /* AVMIDI.macTests.xctest */,
+				3765BE021D8F62340043F47A /* AVMIDI.macUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3765BDE81D8F62330043F47A /* AVMIDI.mac */ = {
+			isa = PBXGroup;
+			children = (
+				3765BDE91D8F62330043F47A /* AppDelegate.swift */,
+				3765BDEB1D8F62330043F47A /* ViewController.swift */,
+				3765BDED1D8F62330043F47A /* Assets.xcassets */,
+				3765BDEF1D8F62340043F47A /* Main.storyboard */,
+				3765BDF21D8F62340043F47A /* Info.plist */,
+			);
+			path = AVMIDI.mac;
+			sourceTree = "<group>";
+		};
+		3765BDFA1D8F62340043F47A /* AVMIDI.macTests */ = {
+			isa = PBXGroup;
+			children = (
+				3765BDFB1D8F62340043F47A /* AVMIDI_macTests.swift */,
+				3765BDFD1D8F62340043F47A /* Info.plist */,
+			);
+			path = AVMIDI.macTests;
+			sourceTree = "<group>";
+		};
+		3765BE051D8F62340043F47A /* AVMIDI.macUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3765BE061D8F62340043F47A /* AVMIDI_macUITests.swift */,
+				3765BE081D8F62340043F47A /* Info.plist */,
+			);
+			path = AVMIDI.macUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3765BDE51D8F62330043F47A /* AVMIDI.mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3765BE0B1D8F62340043F47A /* Build configuration list for PBXNativeTarget "AVMIDI.mac" */;
+			buildPhases = (
+				3765BDE21D8F62330043F47A /* Sources */,
+				3765BDE31D8F62330043F47A /* Frameworks */,
+				3765BDE41D8F62330043F47A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVMIDI.mac;
+			productName = AVMIDI.mac;
+			productReference = 3765BDE61D8F62330043F47A /* AVMIDI.mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3765BDF61D8F62340043F47A /* AVMIDI.macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3765BE0E1D8F62340043F47A /* Build configuration list for PBXNativeTarget "AVMIDI.macTests" */;
+			buildPhases = (
+				3765BDF31D8F62340043F47A /* Sources */,
+				3765BDF41D8F62340043F47A /* Frameworks */,
+				3765BDF51D8F62340043F47A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3765BDF91D8F62340043F47A /* PBXTargetDependency */,
+			);
+			name = AVMIDI.macTests;
+			productName = AVMIDI.macTests;
+			productReference = 3765BDF71D8F62340043F47A /* AVMIDI.macTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3765BE011D8F62340043F47A /* AVMIDI.macUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3765BE111D8F62340043F47A /* Build configuration list for PBXNativeTarget "AVMIDI.macUITests" */;
+			buildPhases = (
+				3765BDFE1D8F62340043F47A /* Sources */,
+				3765BDFF1D8F62340043F47A /* Frameworks */,
+				3765BE001D8F62340043F47A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3765BE041D8F62340043F47A /* PBXTargetDependency */,
+			);
+			name = AVMIDI.macUITests;
+			productName = AVMIDI.macUITests;
+			productReference = 3765BE021D8F62340043F47A /* AVMIDI.macUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3765BDDE1D8F62330043F47A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Adam Nemecek";
+				TargetAttributes = {
+					3765BDE51D8F62330043F47A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3765BDF61D8F62340043F47A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3765BDE51D8F62330043F47A;
+					};
+					3765BE011D8F62340043F47A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3765BDE51D8F62330043F47A;
+					};
+				};
+			};
+			buildConfigurationList = 3765BDE11D8F62330043F47A /* Build configuration list for PBXProject "AVMIDI.mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3765BDDD1D8F62330043F47A;
+			productRefGroup = 3765BDE71D8F62330043F47A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3765BDE51D8F62330043F47A /* AVMIDI.mac */,
+				3765BDF61D8F62340043F47A /* AVMIDI.macTests */,
+				3765BE011D8F62340043F47A /* AVMIDI.macUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3765BDE41D8F62330043F47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3765BDEE1D8F62340043F47A /* Assets.xcassets in Resources */,
+				3765BDF11D8F62340043F47A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3765BDF51D8F62340043F47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3765BE001D8F62340043F47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3765BDE21D8F62330043F47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3765BDEC1D8F62330043F47A /* ViewController.swift in Sources */,
+				3765BDEA1D8F62330043F47A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3765BDF31D8F62340043F47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3765BDFC1D8F62340043F47A /* AVMIDI_macTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3765BDFE1D8F62340043F47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3765BE071D8F62340043F47A /* AVMIDI_macUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3765BDF91D8F62340043F47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3765BDE51D8F62330043F47A /* AVMIDI.mac */;
+			targetProxy = 3765BDF81D8F62340043F47A /* PBXContainerItemProxy */;
+		};
+		3765BE041D8F62340043F47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3765BDE51D8F62330043F47A /* AVMIDI.mac */;
+			targetProxy = 3765BE031D8F62340043F47A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3765BDEF1D8F62340043F47A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3765BDF01D8F62340043F47A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3765BE091D8F62340043F47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3765BE0A1D8F62340043F47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		3765BE0C1D8F62340043F47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AVMIDI.mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HS.AVMIDI-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3765BE0D1D8F62340043F47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AVMIDI.mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HS.AVMIDI-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3765BE0F1D8F62340043F47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AVMIDI.macTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HS.AVMIDI-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVMIDI.mac.app/Contents/MacOS/AVMIDI.mac";
+			};
+			name = Debug;
+		};
+		3765BE101D8F62340043F47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AVMIDI.macTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HS.AVMIDI-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVMIDI.mac.app/Contents/MacOS/AVMIDI.mac";
+			};
+			name = Release;
+		};
+		3765BE121D8F62340043F47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AVMIDI.macUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HS.AVMIDI-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AVMIDI.mac;
+			};
+			name = Debug;
+		};
+		3765BE131D8F62340043F47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AVMIDI.macUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HS.AVMIDI-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AVMIDI.mac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3765BDE11D8F62330043F47A /* Build configuration list for PBXProject "AVMIDI.mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3765BE091D8F62340043F47A /* Debug */,
+				3765BE0A1D8F62340043F47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3765BE0B1D8F62340043F47A /* Build configuration list for PBXNativeTarget "AVMIDI.mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3765BE0C1D8F62340043F47A /* Debug */,
+				3765BE0D1D8F62340043F47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3765BE0E1D8F62340043F47A /* Build configuration list for PBXNativeTarget "AVMIDI.macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3765BE0F1D8F62340043F47A /* Debug */,
+				3765BE101D8F62340043F47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3765BE111D8F62340043F47A /* Build configuration list for PBXNativeTarget "AVMIDI.macUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3765BE121D8F62340043F47A /* Debug */,
+				3765BE131D8F62340043F47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3765BDDE1D8F62330043F47A /* Project object */;
+}
