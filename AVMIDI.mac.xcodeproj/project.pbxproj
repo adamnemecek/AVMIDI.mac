@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375B2B041D91C8C5006B57EF /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B2B031D91C8C5006B57EF /* Sound.swift */; };
+		375B2B061D91C8E5006B57EF /* MIDISampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375B2B051D91C8E5006B57EF /* MIDISampler.swift */; };
+		375B2B0B1D91CA24006B57EF /* gs_instruments.dls in Resources */ = {isa = PBXBuildFile; fileRef = 375B2B071D91CA24006B57EF /* gs_instruments.dls */; };
+		375B2B0C1D91CA24006B57EF /* GeneralUser GS MuseScore v1.442.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 375B2B081D91CA24006B57EF /* GeneralUser GS MuseScore v1.442.sf2 */; };
+		375B2B0D1D91CA24006B57EF /* ntbldmtn.mid in Resources */ = {isa = PBXBuildFile; fileRef = 375B2B091D91CA24006B57EF /* ntbldmtn.mid */; };
+		375B2B0E1D91CA24006B57EF /* sibeliusGMajor.mid in Resources */ = {isa = PBXBuildFile; fileRef = 375B2B0A1D91CA24006B57EF /* sibeliusGMajor.mid */; };
 		3765BDEA1D8F62330043F47A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765BDE91D8F62330043F47A /* AppDelegate.swift */; };
 		3765BDEC1D8F62330043F47A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765BDEB1D8F62330043F47A /* ViewController.swift */; };
 		3765BDEE1D8F62340043F47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3765BDED1D8F62330043F47A /* Assets.xcassets */; };
@@ -33,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		375B2B031D91C8C5006B57EF /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		375B2B051D91C8E5006B57EF /* MIDISampler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDISampler.swift; sourceTree = "<group>"; };
+		375B2B071D91CA24006B57EF /* gs_instruments.dls */ = {isa = PBXFileReference; lastKnownFileType = file; path = gs_instruments.dls; sourceTree = "<group>"; };
+		375B2B081D91CA24006B57EF /* GeneralUser GS MuseScore v1.442.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralUser GS MuseScore v1.442.sf2"; sourceTree = "<group>"; };
+		375B2B091D91CA24006B57EF /* ntbldmtn.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = ntbldmtn.mid; sourceTree = "<group>"; };
+		375B2B0A1D91CA24006B57EF /* sibeliusGMajor.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = sibeliusGMajor.mid; sourceTree = "<group>"; };
 		3765BDE61D8F62330043F47A /* AVMIDI.mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVMIDI.mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3765BDE91D8F62330043F47A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3765BDEB1D8F62330043F47A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		375B2B101D91CA30006B57EF /* sound resources */ = {
+			isa = PBXGroup;
+			children = (
+				375B2B071D91CA24006B57EF /* gs_instruments.dls */,
+				375B2B081D91CA24006B57EF /* GeneralUser GS MuseScore v1.442.sf2 */,
+				375B2B091D91CA24006B57EF /* ntbldmtn.mid */,
+				375B2B0A1D91CA24006B57EF /* sibeliusGMajor.mid */,
+			);
+			name = "sound resources";
+			sourceTree = "<group>";
+		};
 		3765BDDD1D8F62330043F47A = {
 			isa = PBXGroup;
 			children = (
@@ -95,10 +118,13 @@
 		3765BDE81D8F62330043F47A /* AVMIDI.mac */ = {
 			isa = PBXGroup;
 			children = (
+				375B2B101D91CA30006B57EF /* sound resources */,
 				3765BDE91D8F62330043F47A /* AppDelegate.swift */,
 				3765BDEB1D8F62330043F47A /* ViewController.swift */,
 				3765BDED1D8F62330043F47A /* Assets.xcassets */,
 				3765BDEF1D8F62340043F47A /* Main.storyboard */,
+				375B2B031D91C8C5006B57EF /* Sound.swift */,
+				375B2B051D91C8E5006B57EF /* MIDISampler.swift */,
 				3765BDF21D8F62340043F47A /* Info.plist */,
 			);
 			path = AVMIDI.mac;
@@ -229,7 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375B2B0E1D91CA24006B57EF /* sibeliusGMajor.mid in Resources */,
+				375B2B0D1D91CA24006B57EF /* ntbldmtn.mid in Resources */,
+				375B2B0C1D91CA24006B57EF /* GeneralUser GS MuseScore v1.442.sf2 in Resources */,
 				3765BDEE1D8F62340043F47A /* Assets.xcassets in Resources */,
+				375B2B0B1D91CA24006B57EF /* gs_instruments.dls in Resources */,
 				3765BDF11D8F62340043F47A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3765BDEC1D8F62330043F47A /* ViewController.swift in Sources */,
+				375B2B041D91C8C5006B57EF /* Sound.swift in Sources */,
 				3765BDEA1D8F62330043F47A /* AppDelegate.swift in Sources */,
+				375B2B061D91C8E5006B57EF /* MIDISampler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +528,7 @@
 				3765BE0D1D8F62340043F47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3765BE0E1D8F62340043F47A /* Build configuration list for PBXNativeTarget "AVMIDI.macTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +537,7 @@
 				3765BE101D8F62340043F47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3765BE111D8F62340043F47A /* Build configuration list for PBXNativeTarget "AVMIDI.macUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +546,7 @@
 				3765BE131D8F62340043F47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

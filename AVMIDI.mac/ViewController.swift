@@ -9,19 +9,34 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    
+    var sound:Sound!
+    var sampler:MIDISampler!
 
-  override func viewDidLoad() {
-    super.viewDidLoad()
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
-    // Do any additional setup after loading the view.
-  }
-
-  override var representedObject: Any? {
-    didSet {
-    // Update the view, if already loaded.
+        self.sound = Sound()
+        self.sampler = MIDISampler()
     }
-  }
 
+    @IBAction func playAction(_ sender: NSButton) {
+        sound.togglePlaying()
+    }
+    
+    @IBAction func samplerDown(_ sender: NSButton) {
+        sampler.hstart()
+    }
+    
+    @IBAction func samplerUp(_ sender: NSButton) {
+        sampler.hstop()
+    }
 
+    @IBAction func marimbaDown(_ sender: NSButton) {
+        sampler.mstart()
+    }
+    @IBAction func marimbaUp(_ sender: NSButton) {
+        sampler.mstop()
+    }
 }
 
